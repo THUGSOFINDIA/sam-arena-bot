@@ -1,8 +1,8 @@
 module.exports = {
   name: "ready",
   async execute(client) {
-    client.user.setActivity(`%help | 🎶`, {
-      type: "LISTENING",
+    client.user.setActivity(`Sam's Arena`, {
+      type: "WATCHING",
     });
     console.log(`- Activated -`);
   },
